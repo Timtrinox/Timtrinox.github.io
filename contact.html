@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LameCity :: Contact</title>
+<link href="style.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>
+                <a href="homepage.html">LameCity</a>
+            </h1>
+        </header>
+        <nav>
+            <a href="homepage.html">Home</a>&nbsp<a href="contact.html">Contact</a></li>
+        </nav>
+
+        <main class="window">
+            <img style="float: left; margin: 0em 0em 0em 0em;" src="SpiralsTransparent.png" width="100">
+            <h2>Contact Page</h2>
+            <h3>Contact Tim!</h3>
+            <hr>
+            <p>Required fields are marked with an asterisk *.</p>
+
+            <form method="post" action="mailto:tpropst1@student.centralgatech.edu">
+                <label>* Display Name:&nbsp;</label>
+                <input id="displayName" name="displayName" required for="required"><br>
+
+                <input type="radio" id="selectA" name="selection" value="selectA">
+                <label for="selectA">A1</label><br>
+                <input type="radio" id="selectB" name="selection" value="selectB">
+                <label for="selectB">B1</label><br>
+                <input type="radio" id="selectC" name="selection" value="selectC">
+                <label for="selectC">C1</label><br>
+                <br>
+                <input type="checkbox" id="checkA" name="checklist" value="checkA">
+                <label for="checkA">A2</label><br>
+                <input type="checkbox" id="checkB" name="checklist" value="checkB">
+                <label for="checkB">B2</label><br>
+                <input type="checkbox" id="checkC" name="checklist" value="checkC">
+                <label for="checkC">C2</label><br>
+
+                <p>Why are you contacting us?</p>
+                <select name="reason" required for="required">
+                <option value="Nothing">No Reason</option>
+                <option value="Bug/Error">Bug/Error</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Hate Mail">Hate Mail</option>
+                </select><br>
+                
+                <label>* Message:</label><br>
+                <textarea id="message" name="message" rows="2" cols="30" for="required"></textarea><br>
+
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </main>
+
+        <footer class="window">
+            <p>Contact:</p>
+            eMail: <a href="mailto:tpropst1@student.centralgatech.edu">tpropst1@student.centralgatech.edu</a>
+        </footer>
+
+        <section class="window">
+            <figure align="center">
+                <img src="timtrinox.png" alt="Timtrinox Logo" class="publisher">
+                <hr style="width: 100%; text-align: center;">
+                <a href="about.html">About</a><br>
+                <a href="https://timtrinox.bandcamp.com/" target="_blank">Tim's Music</a><br>
+                <a href="https://www.bandlab.com/products/cakewalk" target="_blank">Cakewalk</a><br>
+                <a href="https://towerunite.com/" target="_blank">Tower Unite</a><br>
+            </figure>
+
+        </section>
+
+    </div>
+</body>
+</html>
